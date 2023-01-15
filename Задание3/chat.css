@@ -1,0 +1,118 @@
+body * {
+  box-sizing: border-box;
+  font-family: "Gill Sans", sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0;
+  background-color: #4a3a57;
+}
+
+
+.header {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.container-header {
+	width: 800px;
+	display: inline-flex;
+	justify-content: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.border {
+	border: 2px solid rgb(151, 6, 62);
+  border-radius: 10px;
+}
+.info-output {
+	font-size: 14px;
+	color: rgb(247, 247, 247);
+}
+.output {
+	display: flex;
+	justify-content: flex-end;
+	border: 1px solid rgb(151, 6, 62);
+}
+.input {
+	height: 40px;
+	margin: 10px 10px 10px 0;
+	flex-grow: 2;
+	padding-left: 10px;
+  background-color: #B08EA6;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.btn {
+	background-color: #B08EA6;
+  position: relative;
+  list-style: none;
+  width: 100px;
+  height: 50px;
+  border: 1px solid rgb(151, 6, 62);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(254, 254, 255);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.btn:hover {
+	transform: translateY(-20px);
+}
+.submit {
+	margin: auto;
+	font-size: 15px;
+}
+.location {
+	margin: auto;
+	font-size: 20px;
+}
+.chat-container {
+	width: 800px;
+	min-height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+  background-color: #B08EA6;
+}
+.serverMessage {
+	max-width: 70%;
+	margin: 10px 10px;
+	padding: 10px;
+	border: 1px solid rgb(151, 6, 62);
+  border-radius: 10px;
+	align-self: flex-start;
+  color: white;
+}
+.clientMessage {
+	max-width: 70%;
+	margin: 10px 10px;
+	padding: 10px;
+	border: 1px solid rgb(151, 6, 62);
+  border-radius: 10px;
+	align-self: flex-end;
+  color: white;
+}
+.geoLocation {
+	max-width: 70%;
+	margin: 10px 10px;
+	padding: 10px;
+	border-radius: 10px;
+	align-self: flex-end;
+}
+.mapLink {
+	font-size: 14px;
+}
